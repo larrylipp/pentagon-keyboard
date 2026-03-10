@@ -2,9 +2,16 @@
 <resources>
     <string name="app_name">Pentagon Keyboard v16</string>
     <string name="keyboard_name">Pentagon Keyboard v16</string>
+    <string name="ime_name">Pentagon Keyboard v16</string>
     <string name="subtype_label">English (US)</string>
     <string name="settings_title">Pentagon Keyboard Settings</string>
     <string name="setup_title">Set Up Pentagon Keyboard</string>
+    <string name="setup_step1">Step 1: Enable Pentagon Keyboard</string>
+    <string name="setup_step2">Step 2: Select as Default</string>
+    <string name="setup_done">Done</string>
+    <string name="btn_enable">Enable in Settings</string>
+    <string name="btn_select">Select Pentagon Keyboard</string>
+    <string name="btn_settings">Keyboard Settings</string>
     <string name="setup_btn_enable">Enable in Settings</string>
     <string name="setup_btn_select">Select Pentagon Keyboard</string>
     <string name="setup_btn_settings">Keyboard Settings</string>
