@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hand_mode_entries">
+        <item>Left Hand (pentagon left)</item>
+        <item>Right Hand (pentagon right)</item>
+    </string-array>
+    <string-array name="hand_mode_values">
+        <item>left</item>
+        <item>right</item>
+    </string-array>
+    <string-array name="font_size_entries">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+    </string-array>
+</resources>

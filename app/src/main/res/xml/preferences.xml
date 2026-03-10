@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Layout">
+        <ListPreference
+            android:key="hand_mode"
+            android:title="@string/pref_hand_mode"
+            android:summary="@string/pref_hand_mode_summary"
+            android:entries="@array/hand_mode_entries"
+            android:entryValues="@array/hand_mode_values"
+            android:defaultValue="left" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Smart Typing">
+        <SwitchPreference android:key="predictive_text" android:title="@string/pref_predictive"
+            android:summary="@string/pref_predictive_summary" android:defaultValue="true" />
+        <SwitchPreference android:key="swipe_input" android:title="@string/pref_swipe"
+            android:summary="@string/pref_swipe_summary" android:defaultValue="true" />
+        <SwitchPreference android:key="autocorrect" android:title="@string/pref_autocorrect"
+            android:summary="@string/pref_autocorrect_summary" android:defaultValue="true" />
+        <SwitchPreference android:key="auto_capitalize" android:title="@string/pref_auto_cap"
+            android:summary="@string/pref_auto_cap_summary" android:defaultValue="true" />
+        <SwitchPreference android:key="double_space_period" android:title="@string/pref_double_period"
+            android:summary="@string/pref_double_period_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Feedback">
+        <SwitchPreference android:key="vibrate_on_keypress" android:title="@string/pref_vibrate"
+            android:summary="@string/pref_vibrate_summary" android:defaultValue="true" />
+        <SwitchPreference android:key="sound_on_keypress" android:title="@string/pref_sound"
+            android:summary="@string/pref_sound_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Input">
+        <SwitchPreference android:key="voice_input" android:title="@string/pref_voice"
+            android:summary="@string/pref_voice_summary" android:defaultValue="true" />
+        <ListPreference android:key="font_size" android:title="@string/pref_font_size"
+            android:entries="@array/font_size_entries" android:entryValues="@array/font_size_values"
+            android:defaultValue="medium" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Reset">
+        <Preference android:key="reset_settings" android:title="@string/pref_reset"
+            android:summary="@string/pref_reset_summary" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

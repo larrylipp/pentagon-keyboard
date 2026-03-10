@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pentagon Keyboard v16</string>
+    <string name="keyboard_name">Pentagon Keyboard v16</string>
+    <string name="subtype_label">English (US)</string>
+    <string name="settings_title">Pentagon Keyboard Settings</string>
+    <string name="setup_title">Set Up Pentagon Keyboard</string>
+    <string name="setup_btn_enable">Enable in Settings</string>
+    <string name="setup_btn_select">Select Pentagon Keyboard</string>
+    <string name="setup_btn_settings">Keyboard Settings</string>
+    <string name="pref_hand_mode">Hand Mode</string>
+    <string name="pref_hand_mode_summary">Left-hand or right-hand layout</string>
+    <string name="pref_predictive">Predictive Text</string>
+    <string name="pref_predictive_summary">Show word suggestions as you type</string>
+    <string name="pref_swipe">Swipe to Type</string>
+    <string name="pref_swipe_summary">Slide finger across keys to type words</string>
+    <string name="pref_autocorrect">Auto Correct</string>
+    <string name="pref_autocorrect_summary">Auto-correct on spacebar tap</string>
+    <string name="pref_auto_cap">Auto Capitalize</string>
+    <string name="pref_auto_cap_summary">Capitalize first letter of sentences</string>
+    <string name="pref_double_period">Double Space Period</string>
+    <string name="pref_double_period_summary">Double-tap space to insert a period</string>
+    <string name="pref_vibrate">Vibration Feedback</string>
+    <string name="pref_vibrate_summary">Vibrate on key press</string>
+    <string name="pref_sound">Sound Feedback</string>
+    <string name="pref_sound_summary">Play click sound on key press</string>
+    <string name="pref_voice">Voice Input Button</string>
+    <string name="pref_voice_summary">Show microphone button on keyboard</string>
+    <string name="pref_font_size">Key Label Size</string>
+    <string name="pref_reset">Reset Settings</string>
+    <string name="pref_reset_summary">Restore all settings to defaults</string>
+</resources>
